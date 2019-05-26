@@ -2,6 +2,8 @@
 $title-color: #706F6F;
 $primary-color: #8CC301;
 
+
+// degradado
 @mixin horizontal-gradient($from, $to, $stop: 100%) {
     /* fallback/image non-cover color */
     background-color: $from;

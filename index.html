@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+
     <!-- Mis Estilos -->
     <link rel="stylesheet" href="css/main.css">
     
@@ -32,7 +35,7 @@
                         <li><a href="sass.html">Hogar-empresas</a></li>
                         <li><a href="badges.html">Vehiculos</a></li>
                         <li><a href="collapsible.html">Que hacemos</a></li>
-                        <li><a href="mobile.html">+56 9 12345678</a></li>
+                        <li><a class="active-nav pulse" href="mobile.html">+56 9 12345678</a></li>
                     </ul>
                 </div>
             </nav>
@@ -52,8 +55,8 @@
                     <div class="redes_icon"></div>
                 </div>
                 <div class="header_cta">
-                    <div class="btn-hogar_empresas">hogar-empresas</div>
-                    <div class="btn-vehiculos">vehiculos</div>
+                    <a href="#" class="btn-hogar_empresas waves-effect">hogar-empresas</a>
+                    <div class="btn-vehiculos waves-effect">vehiculos</div>
                 </div>
             </div>
         </div>
@@ -227,122 +230,141 @@
     
         <!-- tarjeta-precios -->
         <div class="container_tajetas">
-            <!-- 1 -->
-            <div class="tarjeta_precios box-shadow hoverable">
-                <div class="header_tarjeta">
-                    <div class="container_title">
-                        <div class="title-line"></div>
-                        <h3 class="title">hogar</h3>
-                        <div class="title-line"></div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- 1 -->
+                    <div class="swiper-slide">
+                        <div class="tarjeta_precios box-shadow hoverable">
+                            <div class="header_tarjeta">
+                                <div class="container_title">
+                                    <div class="title-line"></div>
+                                    <h3 class="title">hogar</h3>
+                                    <div class="title-line"></div>
+                                </div>
+                                <div class="iconos_header">
+                                    <div class="icono"></div>
+                                    <div class="icono"></div>
+                                    <div class="icono"></div>
+                                </div>
+                                <p>camas-alfombras-sofas-cocinas</p>
+                            </div>
+                            <div class="tarjeta_body">
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="iconos_header">
-                        <div class="icono"></div>
-                        <div class="icono"></div>
-                        <div class="icono"></div>
+                    <!-- 2 -->
+                    <div class="swiper-slide">            
+                        <div class="tarjeta_precios box-shadow hoverable">
+                            <div class="header_tarjeta">
+                                <div class="container_title">
+                                    <div class="title-line"></div>
+                                    <h3 class="title">hogar</h3>
+                                    <div class="title-line"></div>
+                                </div>
+                                <div class="iconos_header">
+                                    <div class="icono"></div>
+                                    <div class="icono"></div>
+                                    <div class="icono"></div>
+                                </div>
+                                <p>camas-alfombras-sofas-cocinas</p>
+                            </div>
+                            <div class="tarjeta_body">
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p>camas-alfombras-sofas-cocinas</p>
+                    <!-- 3 -->
+                    <div class="swiper-slide">
+                        <div class="tarjeta_precios box-shadow hoverable">
+                            <div class="header_tarjeta">
+                                <div class="container_title">
+                                    <div class="title-line"></div>
+                                    <h3 class="title">Empresas</h3>
+                                    <div class="title-line"></div>
+                                </div>
+                                <div class="iconos_header">
+                                    <div class="icono"></div>
+                                    <div class="icono"></div>
+                                    <div class="icono"></div>
+                                </div>
+                                <p>camas-alfombras-sofas-cocinas</p>
+                            </div>
+                            <div class="tarjeta_body">
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                                <div class="price_type">
+                                    <div class="description">Lavado</div>
+                                    <div class="price">$99.990</div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="tarjeta_body">
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                </div>
-            </div>
-            <!-- 2 -->
-            <div class="tarjeta_precios box-shadow hoverable">
-                <div class="header_tarjeta">
-                    <div class="container_title">
-                        <div class="title-line"></div>
-                        <h3 class="title">hogar</h3>
-                        <div class="title-line"></div>
-                    </div>
-                    <div class="iconos_header">
-                        <div class="icono"></div>
-                        <div class="icono"></div>
-                        <div class="icono"></div>
-                    </div>
-                    <p>camas-alfombras-sofas-cocinas</p>
-                </div>
-                <div class="tarjeta_body">
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                </div>
-            </div>
-            <!-- 3 -->
-            <div class="tarjeta_precios box-shadow hoverable">
-                <div class="header_tarjeta">
-                    <div class="container_title">
-                        <div class="title-line"></div>
-                        <h3 class="title">Empresas</h3>
-                        <div class="title-line"></div>
-                    </div>
-                    <div class="iconos_header">
-                        <div class="icono"></div>
-                        <div class="icono"></div>
-                        <div class="icono"></div>
-                    </div>
-                    <p>camas-alfombras-sofas-cocinas</p>
-                </div>
-                <div class="tarjeta_body">
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                    <div class="price_type">
-                        <div class="description">Lavado</div>
-                        <div class="price">$99.990</div>
-                    </div>
-                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
 
-        </div>
+
+
     </section>
 
     <!-- ventajas -->
@@ -391,7 +413,20 @@
                 <div class="col l6 title-section">
                     <h2>contacto</h2>
                     <div class="line"></div>
+                    <div class="formulario">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                    </div>
                 </div>
+               
+
+                <!-- GoogleMaps -->
                 <div class="col l6 container_map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57281.699104969455!2d-71.59090396223004!3d-33.02528423134494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de946afe6ce3%3A0xc053d6a455794762!2sVi%C3%B1a+Del+Mar!5e0!3m2!1ses!2scl!4v1558498471383!5m2!1ses!2scl"
@@ -411,10 +446,19 @@
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <!-- Compiled and minified JavaScript -->
+    <!-- materialize | Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Swiper Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
     <!-- my scripts -->
     <script src="js/scripts.js"></script>
+
+
+    
+  
+
 </body>
 </html>

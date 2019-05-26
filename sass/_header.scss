@@ -55,6 +55,11 @@
                     -moz-border-radius: 10px;
                     -ms-border-radius: 10px;
                     -o-border-radius: 10px;
+                    color: #ffffff;
+                    &:hover {
+                        background-color: #ffffff;
+                        color: $primary-color;
+                    }
                 }
                 .btn-vehiculos {
                     width: 200px;
@@ -67,6 +72,10 @@
                     -moz-border-radius: 10px;
                     -ms-border-radius: 10px;
                     -o-border-radius: 10px;
+                    &:hover {
+                        background-color: #ffffff;
+                        color: $primary-color;
+                    }
                 }
 
             }
