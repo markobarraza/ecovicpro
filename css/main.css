@@ -276,6 +276,10 @@ nav ul a {
   bottom: 0;
 }
 
+.arrow {
+  color: #9DCE00;
+}
+
 .ventajas {
   display: flex;
   align-items: center;

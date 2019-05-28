@@ -15,10 +15,10 @@ $(document).ready(function () {
 
       $(document).ready(function () {
             var swiper = new Swiper('.swiper-container', {
-              slidesPerView: 3,
-              spaceBetween: 10,
-              slidesPerGroup: 3,
-              loop: true,
+              slidesPerView: 4,
+              spaceBetween: 1,
+              slidesPerGroup: 4,
+              loop: false,
               loopFillGroupWithBlank: true,
               pagination: {
                   el: '.swiper-pagination',
