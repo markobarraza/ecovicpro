@@ -162,6 +162,8 @@ nav ul a {
   justify-content: center;
   padding-top: 30px;
   position: relative;
+  width: 80%;
+  margin: 0 auto;
 }
 .container_tajetas .tarjeta_precios {
   width: 250px;
@@ -287,6 +289,10 @@ nav ul a {
 .arrow {
   background-color: #ffffff;
   font-size: 70px;
+}
+
+.swiper-pagination {
+  bottom: 0;
 }
 
 .ventajas {

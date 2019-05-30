@@ -25,7 +25,7 @@ $(document).ready(function () {
                   clickable: true,
               },
               navigation: {
-                  nextEl: '.swiper-button-next',
+                  nextEl: '.arrow',
                   prevEl: '.swiper-button-prev',
               },
           });
