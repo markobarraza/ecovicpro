@@ -110,9 +110,12 @@
     -webkit-align-items: center;
     align-items: center;
 }
-.swiper-pagination {
+.swiper-button-next {
     bottom: 0;
+    color: red !important;
+
 }
 .arrow {
-    color: #9DCE00;
+    background-color: #ffffff;
+    font-size: 70px;
 }

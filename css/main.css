@@ -35,6 +35,13 @@ nav ul a {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.icon {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
 .header-ecovic {
   background-image: url(../img/slider-header.png);
   background-position: right;
@@ -272,12 +279,14 @@ nav ul a {
   align-items: center;
 }
 
-.swiper-pagination {
+.swiper-button-next {
   bottom: 0;
+  color: red !important;
 }
 
 .arrow {
-  color: #9DCE00;
+  background-color: #ffffff;
+  font-size: 70px;
 }
 
 .ventajas {
