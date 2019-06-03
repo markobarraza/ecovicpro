@@ -15,9 +15,9 @@ $(document).ready(function () {
 
       $(document).ready(function () {
             var swiper = new Swiper('.swiper-container', {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 1,
-              slidesPerGroup: 4,
+              slidesPerGroup: 3,
               loop: false,
               loopFillGroupWithBlank: true,
               pagination: {
@@ -25,8 +25,8 @@ $(document).ready(function () {
                   clickable: true,
               },
               navigation: {
-                  nextEl: '.arrow',
-                  prevEl: '.swiper-button-prev',
+                  nextEl: '.icon-keyboard_arrow_right',
+                  prevEl: '.icon-keyboard_arrow_left',
               },
           });
         });
