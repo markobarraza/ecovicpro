@@ -311,6 +311,9 @@ nav ul a {
   margin-top: 50px;
   width: 50%;
 }
+.container_imgs .container-imgs {
+  max-width: 600px;
+}
 .container_imgs .que-hacemos_img {
   position: absolute;
   width: 550px;
@@ -337,6 +340,22 @@ nav ul a {
 .que-hacemos_info .info {
   color: #706F6F;
   font-size: 0.8rem;
+}
+
+.section_testimonios .container_testimonios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_testimonios .container_testimonios .box_testimonio-1 {
+  background-color: #aaaaaa;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .contacto {

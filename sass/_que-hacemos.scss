@@ -12,18 +12,21 @@
     height: 400px;
     margin-top: 50px;
     width: 50%;
-    .que-hacemos_img {
-        position: absolute;
-        width: 550px;
-        bottom: 0;
-        left: 0;
+    .container-imgs{
+        max-width: 600px
     }
-    .que-hacemos_img2 {
-        position: absolute;
-        width: 300px;
-        top: 0;
-        right: 0;
-    }
+        .que-hacemos_img {
+            position: absolute;
+            width: 550px;
+            bottom: 0;
+            left: 0;
+        }
+        .que-hacemos_img2 {
+            position: absolute;
+            width: 300px;
+            top: 0;
+            right: 0;
+        }
 }
 .que-hacemos_info {
     text-align: left;
