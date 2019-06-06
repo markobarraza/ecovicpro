@@ -23,6 +23,9 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    @media screen and (max-width: 480px){
+        width: 100% !important;
+    }
 }
 .swiper-button-next {
     bottom: 0;

@@ -122,6 +122,11 @@ nav ul a {
   -o-border-radius: 10px;
   color: #ffffff;
 }
+@media screen and (max-width: 480px) {
+  .header-ecovic .header-degradado .header-info .header_cta .btn-hogar_empresas {
+    margin-right: 0px;
+  }
+}
 .header-ecovic .header-degradado .header-info .header_cta .btn-hogar_empresas:hover {
   background-color: #ffffff;
   color: #8CC301;
@@ -137,6 +142,11 @@ nav ul a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  .header-ecovic .header-degradado .header-info .header_cta .btn-vehiculos {
+    margin: 10px 0;
+  }
 }
 .header-ecovic .header-degradado .header-info .header_cta .btn-vehiculos:hover {
   background-color: #ffffff;
@@ -274,10 +284,20 @@ nav ul a {
   background-color: #009944;
   width: 100%;
 }
+@media screen and (max-width: 480px) {
+  .ventajas {
+    display: inherit;
+  }
+}
 .ventajas .container-icon {
   text-align: center;
   color: #ffffff;
   padding: 30px 140px;
+}
+@media screen and (max-width: 480px) {
+  .ventajas .container-icon {
+    padding: 30px 0;
+  }
 }
 .ventajas .container-icon .ventajas-icon {
   font-size: 2.6rem;
@@ -304,12 +324,22 @@ nav ul a {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 480px) {
+  .center_vic {
+    display: inherit;
+  }
+}
 
 .container_imgs {
   position: relative;
   height: 400px;
   margin-top: 50px;
   width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .container_imgs {
+    width: 100%;
+  }
 }
 .container_imgs .container-imgs {
   max-width: 600px;
@@ -333,6 +363,12 @@ nav ul a {
   width: 50%;
   padding: 50px;
 }
+@media screen and (max-width: 480px) {
+  .que-hacemos_info {
+    width: 100%;
+    padding: 5px;
+  }
+}
 .que-hacemos_info .title-hacemos {
   text-align: left;
   color: #8CC301;
@@ -346,16 +382,49 @@ nav ul a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 .section_testimonios .container_testimonios .box_testimonio-1 {
-  background-color: #aaaaaa;
+  background-color: #ececec;
+  border: 0.5px solid #e6e6e6;
   margin: 10px;
   padding: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.section_testimonios .container_testimonios .box_testimonio-1 .img_perfil {
+  position: absolute;
+  top: -40px;
+  text-align: center;
+}
+.section_testimonios .container_testimonios .box_testimonio-1 .img_perfil .testimonial_img {
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.section_testimonios .container_testimonios .box_testimonio-1 .img_perfil .name_testimonial {
+  display: block;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.section_testimonios .container_testimonios .box_testimonio-1 .testimonial {
+  font-size: 0.8125rem;
+  text-align: center;
+  color: #a1a1a1;
+  display: block;
+  margin-top: 60px;
 }
 
 .contacto {
@@ -394,6 +463,11 @@ nav ul a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .swiper-slide {
+    width: 100% !important;
+  }
 }
 
 .swiper-button-next {

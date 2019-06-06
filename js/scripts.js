@@ -17,7 +17,7 @@ $(document).ready(function () {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 3,
         spaceBetween: 1,
-        slidesPerGroup: 3,
+        slidesPerGroup: 5,
         loop: false,
         loopFillGroupWithBlank: true,
         pagination: {
