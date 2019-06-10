@@ -13,22 +13,36 @@ $(document).ready(function () {
 
 // SWIPER SLIDER
 
-$(document).ready(function () {
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
-        spaceBetween: 1,
-        slidesPerGroup: 5,
-        loop: false,
-        loopFillGroupWithBlank: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 100,
+    // init: false,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.icon-keyboard_arrow_right',
+        prevEl: '.icon-keyboard_arrow_left',
+    },
+    breakpoints: {
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 40,
         },
-        navigation: {
-            nextEl: '.icon-keyboard_arrow_right',
-            prevEl: '.icon-keyboard_arrow_left',
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
         },
-    });
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        }
+    }
 });
 
 // TOOLTIPS

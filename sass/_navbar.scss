@@ -1,9 +1,10 @@
 .my-navbar{
-    background-color: transparent;
+    @include horizontal-gradient(#82BC00, #9DCE00);
     box-shadow: none;
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 100%;
+    z-index: 99;
 }
 nav ul a {
     display: inline;
@@ -25,4 +26,7 @@ nav ul a {
     font-size: 18px;
     margin-top: 50px;
     margin-right: 10px;
+}
+.logo-ecovic {
+    font-size: 65px;
 }

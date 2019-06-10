@@ -1,50 +1,58 @@
-.section_testimonios {
-    .container_testimonios{
+.container_testimonios {
+    margin-top: 50px;
+    position: relative !important;
+    .box_testimonio-1 {
+        background-color: #ececec;
+        border: .5px solid #e6e6e6;
+        padding: 15px;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
-        .box_testimonio-1 {
-            background-color: #ececec;
-            border: .5px solid #e6e6e6;
-            margin: 10px;
-            padding: 15px;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-            .img_perfil {
-                position: absolute;
-                top: -40px;
-                text-align: center;
-                .testimonial_img{
-                    width: 80px;
-                    margin: 0 auto;
-                    border-radius: 50%;
-                    -webkit-border-radius: 50%;
-                    -moz-border-radius: 50%;
-                    -ms-border-radius: 50%;
-                    -o-border-radius: 50%;
-                }
-                .name_testimonial {
-                    display: block;
-                    font-size: 1rem;
-                    margin: 0;
-                    padding: 0;
-                }
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        .img_perfil {
+            position: absolute;
+            top: -40px;
+            text-align: center;
+
+            .testimonial_img {
+                width: 80px;
+                margin: 0 auto;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
             }
-            .testimonial {
-                font-size: 0.8125rem;
-                text-align: center;
-                color: #a1a1a1;
+
+            .name_testimonial {
                 display: block;
-                margin-top: 60px;
+                font-size: 1rem;
+                margin: 0;
+                padding: 0;
             }
+        }
+
+        .testimonial {
+            font-size: 0.8125rem;
+            text-align: center;
+            color: #969696;
+            display: block;
+            margin-top: 60px;
+        }
+        .icon_testimonial {
+            position: absolute;
+            font-size: 50px;
+            left: 20px;
+            top: 60px;
+            color: #7e7e7e;
+            opacity: .1;
+
         }
     }
 }

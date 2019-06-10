@@ -6,12 +6,14 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
+
     .tarjeta_precios {
         width: 250px;
         margin: 0 20px;
         display: inline-block;
         background-color: #F8F8F8;
         border-radius: 15px;
+
         .header_tarjeta {
             @include horizontal-gradient(#82BC00, #9DCE00);
             border-top-left-radius: 15px;
@@ -19,16 +21,19 @@
             color: #ffffff;
             padding-bottom: 5px;
             text-align: center;
-            .container_title{
+
+            .container_title {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 padding-top: 20px;
+
                 .title-line {
                     width: 25px;
                     background-color: #ffffff;
                     height: 1px;
                 }
+
                 .title {
                     font-size: .95rem;
                     text-transform: uppercase;
@@ -38,9 +43,11 @@
                     padding: 0 10px;
                 }
             }
+
             .iconos_header {
                 margin: 10px 0;
-                .icono{
+
+                .icono {
                     width: 40px;
                     height: 40px;
                     margin: 0 10px;
@@ -53,6 +60,7 @@
                     -o-border-radius: 50px;
                 }
             }
+
             p {
                 font-size: .65rem;
                 text-transform: uppercase;
@@ -60,29 +68,32 @@
                 margin: 0;
             }
         }
+
         .tarjeta_body {
             padding: 0 15px;
-            .price_type{
+
+            .price_type {
                 display: block;
                 border-bottom: solid 1px #ECECEC;
                 height: 30px;
                 margin: 20px 0;
+
                 .description {
                     font-size: 12px;
                     display: inline-block;
                     float: left;
                     color: $title-color;
                 }
+
                 .price {
                     font-size: 14px;
                     display: inline-block;
                     float: right;
                     color: $title-color;
                 }
-                .price-line {                    
-                }
+
+                .price-line {}
             }
         }
     }
 }
-

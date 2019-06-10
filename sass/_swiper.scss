@@ -1,15 +1,24 @@
-
 // swiper
 .swiper-container {
     width: 80%;
     height: 100%;
-    padding: 30px 0;
+    padding: 50px 0;
+    position: inherit;
+}
+
+.swiper-wrapper {
+    position: inherit !important;
+    transform: inherit;
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+    -ms-transform: inherit;
+    -o-transform: inherit;
 }
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    position: inherit;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,36 +32,37 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    @media screen and (max-width: 480px){
-        width: 100% !important;
-    }
 }
+
 .swiper-button-next {
     bottom: 0;
 }
+
 .arrow {
     font-size: 50px;
     color: $secundary-color;
     background-image: unset;
 }
+
 .swiper-pagination {
     bottom: 0;
 }
+
 .icon-keyboard_arrow_left {
-    
+
     left: 0;
     position: absolute;
 }
+
 .icon-keyboard_arrow_right {
     right: 30px;
     position: absolute;
 }
+
 .swiper-pagination-bullet {
     margin: 0 3px;
 }
+
 .swiper-pagination-bullet-active {
     background-color: $primary-color;
-}
-.logo-ecovic{
-    font-size: 75px;
 }
